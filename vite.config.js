@@ -8,7 +8,7 @@ export default defineConfig(({ command }) => {
 
   return {
     plugins: [react()],
-    base: basePrefix,
+    base: '/',
     resolve: {
       alias: {
         '@': resolve(__dirname, 'src'),
