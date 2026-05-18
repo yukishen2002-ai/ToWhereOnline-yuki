@@ -4,11 +4,12 @@ import { resolve } from 'path';
 
 export default defineConfig(({ command }) => {
   const isVercel = process.env.VERCEL === '1' || process.env.VERCEL === 'true';
-  const basePrefix = (command === 'build' && !isVercel) ? '/ToWhereOnline/' : '/';
+  const isCF = process.env.CF_PAGES === '1' || !!process.env.CF_PAGES;
+  const basePrefix = (command === 'build' && !isVercel && !isCF) ? '/ToWhereOnline/' : '/';
 
   return {
     plugins: [react()],
-    base: '/',
+    base: basePrefix,
     resolve: {
       alias: {
         '@': resolve(__dirname, 'src'),
@@ -22,4 +23,4 @@ export default defineConfig(({ command }) => {
       include: ['cesium', 'resium'],
     },
   };
-}); 
+});
