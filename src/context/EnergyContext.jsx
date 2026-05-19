@@ -8,13 +8,13 @@ const EnergyContext = createContext();
 export const USERS = {
     JIANG: {
         id: 'jiang',
-        name: '小姜同学',
+        name: 'Harper',
         keywords: ['专注', '求索', '真实']
     },
     ZHEN: {
         id: 'zhen',
-        name: '小肴同学',
-        keywords: ['思考', '减负', '在场', '投入']
+        name: 'Yuki',
+        keywords: ['快乐', '减负', '在场', '投入']
     }
 };
 
