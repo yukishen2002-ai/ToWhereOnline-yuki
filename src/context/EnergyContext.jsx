@@ -34,7 +34,7 @@ export const PLANET_METADATA = {
     '真实': { en: 'Authenticity', desc: 'Face the true self and the world. Be honest and transparent.' },
     '专注': { en: 'Focus', desc: 'eliminate distractions and devote yourself wholeheartedly to the present moment.' },
     '减负': { en: 'Declutter', desc: 'Timely clean up physical and mental burdens. Travel light.' },
-    '思考': { en: 'Thinking', desc: 'Think deeply and independently. Do not follow the crowd blindly.' },
+    '快乐': { en: 'Happiness', desc: 'Find joy in the little moments and appreciate life as it unfolds.' },
     '在场': { en: 'Presence', desc: 'Be here, now. Fully engage with the current experience.' },
     '投入': { en: 'Commitment', desc: 'Once a choice is made, go all in. No hesitation.' }
 };
