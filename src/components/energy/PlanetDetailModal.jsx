@@ -14,7 +14,7 @@ export default function PlanetDetailModal({ keyword, onClose }) {
     // Determine which user owns this keyword
     const USERS_LOCAL = {
         JIANG: { id: 'jiang', keywords: ['专注', '求索', '真实'] },
-        ZHEN: { id: 'zhen', keywords: ['思考', '减负', '在场', '投入'] }
+        ZHEN: { id: 'zhen', keywords: ['快乐', '减负', '在场', '投入'] }
     };
     const keywordOwner = USERS_LOCAL.JIANG.keywords.includes(keyword) ? 'jiang' : 'zhen';
 
