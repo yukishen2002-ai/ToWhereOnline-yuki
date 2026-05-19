@@ -22,7 +22,7 @@ export default function StarshipWidget() {
         { key: '真实', name: '真实星' },
         { key: '专注', name: '专注星' },
         { key: '减负', name: '减负星' },
-        { key: '思考', name: '思考星' },
+        { key: '快乐', name: '快乐星' },
         { key: '在场', name: '在场星' },
         { key: '投入', name: '投入星' }
     ];
